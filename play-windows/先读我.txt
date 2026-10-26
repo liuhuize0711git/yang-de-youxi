@@ -1,0 +1,29 @@
+LUMENFALL：空心钟 1.0.1
+
+此版本修复 Windows 中文用户名 / 非 ASCII 存档路径的启动错误：
+filesystem error: Cannot convert character sequence: Illegal byte sequence
+运行后窗口标题应显示 LUMENFALL 1.0.1。
+
+先解压整个压缩包，再双击 Lumenfall.exe。
+Windows 10/11 64 位。无需另找图片、字体、音频或 SFML DLL。
+
+A / D 或方向键：移动
+Space：跳跃，按住跳得更高；取得能力后可二段跳
+J：攻击；方向键上 + J：向上攻击
+K / Shift：冲刺（需先解锁）
+按住 H：站稳治疗
+E：开门、读记忆、灯笼休息存档
+M：地图
+Esc：暂停
+F：静音
+
+新游戏：方向键选择 NEW JOURNEY，按 Enter。
+地图主线：枢纽 → 水道取得冲刺 → 档案馆取得二段跳 →
+返回枢纽登上高处门 → 花园 → 铸钟厂取得钟心 →
+返回枢纽进入最右侧门 → 长桥 → Boss。
+
+如音频设备导致无法启动，可在本目录的终端执行：
+Lumenfall.exe --no-audio
+
+详细说明、源码、构建方法在上一级 README.md。
+本 Windows 文件已交叉编译，尚未在原生 Windows 系统实玩验证。

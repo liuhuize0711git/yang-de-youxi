@@ -1,0 +1,6 @@
+build*/
+*.user
+*.dat
+*.dat.bak
+*.dat.tmp
+.DS_Store
